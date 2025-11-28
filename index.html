@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações - Starbucks</title>
+    <!-- Incluindo o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o arquivo CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo Starbucks" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#avaliacoes">AVALIAÇÕES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pesquisa">PESQUISA DE CAMPO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção de Avaliações -->
+    <section id="avaliacoes" class="avaliacoes py-5">
+        <div class="container">
+            <h1>Avaliações recorrentes</h1>
+            <p class="text-center mb-4">Veja o que nossos clientes estão dizendo sobre nós, com base em nossa pesquisa de campo!</p>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <p><strong>João Silva:</strong> "Adoro o café de vocês! Sempre quentinho e delicioso!"</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <p><strong>Ana Costa:</strong> "Ambiente ótimo, mas o preço é um pouco alto para o meu gosto."</p>
+                    </div>
+                </div>
+                <!-- Adicionar mais avaliações conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Pesquisa de Campo -->
+    <section id="pesquisa" class="pesquisa py-5 bg-light">
+        <div class="container text-center">
+            <h2>O que é a NPS?</h2>
+            <p class="mb-4">O NPS (Net Promoter Score) é uma métrica que mede a lealdade dos clientes, perguntando de forma simples: “Você recomendaria nossa marca a um amigo?”. Serve para identificar quem ama, gosta ou está insatisfeito com a experiência, ajudando a empresa a melhorar e fortalecer relações.</p>
+            <h2>Pesquisa de Campo</h2>
+            <p class="mb-4">Sua opinião é muito importante para nós! Participe da nossa pesquisa.</p>
+            <a href="https://forms.gle/QgGNEE1GYRwztq2k9" class="btn btn-success btn-lg" target="_blank">Participar da Pesquisa</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Starbucks Coffee Company. Desenvolvido por Bryan Soares e Jonatha de Paula para fins educativos.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
